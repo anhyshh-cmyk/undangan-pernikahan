@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#e8eee4">
+<title>Undangan Pernikahan | Andrian & Helda</title>
+<style>
+:root{--sage:#8d9e86;--sage-dark:#52634e;--sage-pale:#e8eee4;--cream:#fbfaf6;--brown:#7c6555;--ink:#344034;--pink:#d9b9b5}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.7}
+button,input,select,textarea{font:inherit}
+button,a{ -webkit-tap-highlight-color:transparent}
+.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:28px 20px;position:relative;overflow:hidden;background:linear-gradient(145deg,#f8f7f0 0%,#e7ede2 55%,#d9e2d5 100%)}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid rgba(82,99,78,.28);border-radius:50%;width:300px;height:430px;transform:rotate(35deg)}
+.hero:before{left:-170px;top:-90px}.hero:after{right:-170px;bottom:-90px;transform:rotate(-35deg)}
+.hero-inner{position:relative;z-index:1;max-width:560px}
+.eyebrow{letter-spacing:.22em;text-transform:uppercase;font-size:.76rem;color:var(--sage-dark)}
+.hero h1{font-weight:normal;font-size:clamp(2.5rem,9vw,4.8rem);line-height:1.05;margin:22px 0;color:var(--sage-dark)}
+.amp{font-style:italic;color:var(--brown);font-size:.7em}
+.hero-date{letter-spacing:.15em;color:var(--brown);font-size:.95rem}
+.flower{font-size:2.4rem;color:var(--sage);margin:10px}
+.btn{display:inline-block;border:0;border-radius:30px;padding:12px 24px;background:var(--sage-dark);color:white;text-decoration:none;cursor:pointer;margin-top:20px;font-size:.95rem;transition:.2s}
+.btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+main{max-width:760px;margin:auto;padding:0 18px}
+section{padding:64px 0;text-align:center}
+.section-kicker{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--sage-dark)}
+h2{font-weight:normal;font-size:clamp(1.8rem,6vw,2.6rem);line-height:1.2;margin:10px 0 20px;color:var(--sage-dark)}
+p{margin:10px auto;max-width:590px}
+.bismillah{font-size:1.2rem;color:var(--brown);margin-bottom:18px}
+.names{font-size:clamp(1.8rem,7vw,3rem);color:var(--sage-dark);line-height:1.3}
+.parents{font-size:.96rem;color:#6c7167}
+.divider{width:72px;height:1px;background:var(--pink);margin:28px auto}
+.countdown{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:24px auto}
+.countdown div{min-width:76px;background:#fff;border:1px solid #e0e6dc;border-radius:16px;padding:12px 8px;box-shadow:0 5px 18px #53664d0d}
+.countdown strong{display:block;font-size:1.8rem;font-weight:normal;color:var(--sage-dark)}
+.countdown span{font-size:.72rem;color:var(--brown);letter-spacing:.05em}
+.events{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:25px}
+.card{background:white;border:1px solid #e0e6dc;border-radius:22px;padding:24px 16px;box-shadow:0 8px 28px #52634e0b}
+.card h3{font-weight:normal;color:var(--sage-dark);font-size:1.5rem;margin:0 0 12px}
+.card .time{font-size:1.15rem;color:var(--brown)}
+.small{font-size:.9rem;color:#697065}
+.map-link{display:inline-block;color:var(--sage-dark);font-size:.9rem;margin-top:12px;text-underline-offset:4px}
+.form-card{max-width:560px;margin:22px auto 0;text-align:left;background:white;border:1px solid #e0e6dc;border-radius:22px;padding:22px}
+label{display:block;font-size:.9rem;margin:12px 0 5px;color:var(--brown)}
+input,select,textarea{width:100%;padding:12px;border:1px solid #d9e0d5;border-radius:12px;background:#fcfcf9;color:var(--ink)}
+textarea{min-height:100px;resize:vertical}
+.form-card .btn{width:100%}
+.notice{font-size:.8rem;color:#777d72;margin-top:12px}
+.closing{background:var(--sage-pale);border-radius:24px;padding:36px 20px;margin-bottom:50px}
+footer{text-align:center;padding:26px 12px 40px;background:#e4eade;color:var(--brown);font-size:.82rem}
+@media(max-width:560px){.events{grid-template-columns:1fr}.card{padding:22px 15px}.hero:before,.hero:after{width:220px;height:330px}}
+</style>
+</head>
+<body>
+<header class="hero" id="home">
+  <div class="hero-inner">
+    <div class="eyebrow">Undangan Pernikahan</div>
+    <div class="flower">❧</div>
+    <p style="font-size:1rem">Dengan memohon rahmat dan ridha Allah SWT</p>
+    <p>kami bermaksud mengundang Bapak/Ibu/Saudara/i</p>
+    <h1>Muhammad Andrian<br><span class="amp">&amp;</span><br>Helda</h1>
+    <div class="hero-date">MINGGU · 11 OKTOBER 2026</div>
+    <a class="btn" href="#undangan">Buka Undangan ↓</a>
+  </div>
+</header>
+
+<main>
+<section id="undangan">
+  <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+  <div class="section-kicker">Assalamu’alaikum Warahmatullahi Wabarakatuh</div>
+  <p>Dengan memohon rahmat dan ridha Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami. Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+  <div class="divider"></div>
+  <div class="names">Muhammad Andrian</div>
+  <p class="parents">Putra dari Bapak Syamsul Arifin<br>dan Ibu Nurul Hidayah</p>
+  <div class="flower" style="margin:20px">♡</div>
+  <div class="names">Helda</div>
+  <p class="parents">Putri dari Bapak Achmad Rofi’i<br>dan Ibu Fatmawati</p>
+  <div class="divider"></div>
+  <p>“Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya.”</p>
+  <p class="small"><em>QS. Ar-Rum: 21</em></p>
+</section>
+
+<section id="waktu" style="background:#f1f4ed;border-radius:28px;padding:48px 18px">
+  <div class="section-kicker">Menuju Hari Bahagia</div>
+  <h2>Save the Date</h2>
+  <div class="countdown" aria-label="Hitung mundur">
+    <div><strong id="days">--</strong><span>HARI</span></div>
+    <div><strong id="hours">--</strong><span>JAM</span></div>
+    <div><strong id="minutes">--</strong><span>MENIT</span></div>
+    <div><strong id="seconds">--</strong><span>DETIK</span></div>
+  </div>
+  <div class="events">
+    <article class="card">
+      <div class="section-kicker">Acara Pertama</div>
+      <h3>Akad Nikah</h3>
+      <div class="time">07.00 WIB</div>
+      <p>Minggu, 11 Oktober 2026</p>
+      <p class="small">Musholla Anshorullah, Dawuhan, Kota Blitar</p>
+    </article>
+    <article class="card">
+      <div class="section-kicker">Acara Kedua</div>
+      <h3>Resepsi / Walimatul Ursy</h3>
+      <div class="time">10.00 WIB</div>
+      <p>Minggu, 11 Oktober 2026</p>
+      <p class="small">Musholla Anshorullah, Dawuhan, Kota Blitar</p>
+    </article>
+  </div>
+  <p class="notice">Lokasi acara: Musholla Anshorullah, Dawuhan, Kota Blitar.</p>
+  <a class="map-link" id="mapLink" href="https://maps.google.com/?q=rumah+mempelai+wanita" target="_blank" rel="noopener">Buka lokasi di Google Maps ↗</a>
+</section>
+
+<section id="rsvp">
+  <div class="section-kicker">Konfirmasi Kehadiran</div>
+  <h2>RSVP</h2>
+  <p>Mohon bantu kami mempersiapkan acara dengan mengonfirmasi kehadiran.</p>
+  <div class="form-card">
+    <form id="rsvpForm">
+      <label for="guestName">Nama tamu</label>
+      <input id="guestName" required placeholder="Masukkan nama">
+      <label for="attendance">Konfirmasi kehadiran</label>
+      <select id="attendance" required>
+        <option value="">Pilih jawaban</option>
+        <option>InsyaAllah hadir</option>
+        <option>Mohon maaf, belum bisa hadir</option>
+      </select>
+      <label for="guestCount">Jumlah tamu</label>
+      <select id="guestCount">
+        <option>1 orang</option><option>2 orang</option><option>3 orang</option><option>4 orang</option>
+      </select>
+      <button class="btn" type="submit">Kirim Konfirmasi via WhatsApp</button>
+      <p class="notice">Tombol ini akan membuka WhatsApp dengan pesan yang siap dikirim.</p>
+    </form>
+  </div>
+</section>
+
+<section id="ucapan">
+  <div class="section-kicker">Doa &amp; Harapan</div>
+  <h2>Kirim Ucapan</h2>
+  <p>Doa restu dan ucapan baik dari Bapak/Ibu/Saudara/i sangat berarti bagi kami.</p>
+  <div class="form-card">
+    <form id="wishForm">
+      <label for="wishName">Nama</label>
+      <input id="wishName" required placeholder="Nama Anda">
+      <label for="wishText">Ucapan dan doa</label>
+      <textarea id="wishText" required placeholder="Tuliskan ucapan dan doa..."></textarea>
+      <button class="btn" type="submit">Kirim Ucapan via WhatsApp</button>
+      <p class="notice">Ucapan dikirim melalui WhatsApp, bukan ditampilkan otomatis di halaman ini.</p>
+    </form>
+  </div>
+</section>
+
+<section>
+  <div class="closing">
+    <div class="flower">❧</div>
+    <h2>Merupakan suatu kebahagiaan bagi kami</h2>
+    <p>atas kehadiran dan doa restu Bapak/Ibu/Saudara/i.</p>
+    <p>Mohon maaf apabila terdapat kesalahan dalam penulisan nama maupun gelar.</p>
+    <div class="divider"></div>
+    <div class="names" style="font-size:2rem">Andrian &amp; Helda</div>
+    <p class="small">Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
+  </div>
+</section>
+</main>
+<footer>
+  <div>Undangan Pernikahan</div>
+  <strong>Muhammad Andrian &amp; Helda</strong><br>
+  <span>11 Oktober 2026 · Dengan penuh rasa syukur</span>
+</footer>
+
+<script>
+// PENTING: ganti nomor di bawah dengan nomor WhatsApp penerima RSVP/ucapan.
+// Gunakan kode negara, tanpa tanda +, spasi, atau angka 0 di awal.
+// Contoh format Indonesia: 62812xxxxxxxx
+const WHATSAPP_NUMBER = "6281515329947";
+
+// Opsional: ganti tautan berikut dengan tautan lokasi rumah mempelai wanita.
+const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Musholla+Anshorullah+Dawuhan+Kota+Blitar";
+document.getElementById("mapLink").href = MAPS_URL;
+
+const weddingDate = new Date("2026-10-11T07:00:00+07:00").getTime();
+function updateCountdown(){
+  const now = Date.now(), diff = weddingDate-now;
+  if(diff<=0){
+    ["days","hours","minutes","seconds"].forEach(id=>document.getElementById(id).textContent="0");
+    return;
+  }
+  document.getElementById("days").textContent=Math.floor(diff/86400000);
+  document.getElementById("hours").textContent=Math.floor(diff%86400000/3600000);
+  document.getElementById("minutes").textContent=Math.floor(diff%3600000/60000);
+  document.getElementById("seconds").textContent=Math.floor(diff%60000/1000);
+}
+updateCountdown();setInterval(updateCountdown,1000);
+
+function sendWhatsApp(message){
+  if(WHATSAPP_NUMBER.includes("x")){
+    alert("Nomor WhatsApp belum diatur. Minta pembuat website mengganti WHATSAPP_NUMBER di bagian script dengan nomor penerima RSVP/ucapan.");
+    return;
+  }
+  window.open("https://wa.me/"+WHATSAPP_NUMBER+"?text="+encodeURIComponent(message),"_blank","noopener");
+}
+document.getElementById("rsvpForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const name=document.getElementById("guestName").value.trim();
+  const attendance=document.getElementById("attendance").value;
+  const count=document.getElementById("guestCount").value;
+  sendWhatsApp("Assalamu’alaikum. Saya "+name+" ingin mengonfirmasi kehadiran pada pernikahan Muhammad Andrian & Helda. Konfirmasi: "+attendance+". Jumlah tamu: "+count+". Terima kasih.");
+});
+document.getElementById("wishForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const name=document.getElementById("wishName").value.trim();
+  const wish=document.getElementById("wishText").value.trim();
+  sendWhatsApp("Assalamu’alaikum. Ucapan untuk Muhammad Andrian & Helda dari "+name+": "+wish);
+});
+</script>
+</body>
+</html>
